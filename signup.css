@@ -1,0 +1,46 @@
+body {
+  background-image: url("./image.jps/jungelsainup.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#create-visitor-form {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(12, 1, 1, 0.907);
+  max-width: 400px;
+  width: 100%;
+}
+#create-visitor-form label {
+  font-size: 24px;
+  display: block;
+  margin-bottom: 5px;
+}
+#create-visitor-form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+#create-visitor-form input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+#create-visitor-form input[type="submit"]:hover {
+  background-color: #344835;
+}

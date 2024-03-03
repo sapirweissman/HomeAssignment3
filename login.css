@@ -1,0 +1,132 @@
+body {
+  background-image: url("./image.jps/jungellogin\ \(2\).jpg");
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.visitor {
+  background-color: #ffffffab;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  width: 300px;
+  text-align: center;
+  border: 1px solid black;
+  margin: 10px;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialog-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+.flex-container > * {
+  margin-bottom: 10px;
+}
+#search-container {
+  margin-bottom: 20px;
+}
+.visitor h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.visitor p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.visitor button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.visitor button:hover {
+  background-color: #45a049;
+}
+.dialog-box h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.dialog-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.dialog-buttons button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.dialog-buttons button.yes-button {
+  background-color: #4caf50;
+  color: #fff;
+}
+.dialog-buttons button.no-button {
+  background-color: #f44336;
+  color: #fff;
+}
+.dialog-buttons button.yes-button:hover {
+  background-color: #888382;
+}
+.dialog-buttons button.no-button:hover {
+  background-color: #888382;
+}
+#visitor-title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+#search-container {
+  text-align: center;
+}
+#search-container label {
+  margin-right: 10px;
+}
+
+#name-filter {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 200px;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}

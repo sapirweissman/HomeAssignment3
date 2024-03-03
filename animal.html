@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animal</title>
+    <link rel="stylesheet" href="./animal.css" />
+    <script src="./main.js"></script>
+  </head>
+  <body>
+    <div class="flex-container" , id="nav-details">
+      <nav>
+        <h3 class="flex-container" id="visitor-name"></h3>
+        <h3 class="flex-container" id="visitor-coins"></h3>
+        <button class="flex-container" onclick="resetApp()">ResetApp</button>
+
+        <label class="flex-container" for="visitor-select"
+          >Visitors left:</label
+        >
+        <select id="visitor-select"></select>
+        <button id="dashboard-button">Go to dashboard</button>
+      </nav>
+    </div>
+    <div>
+      <div id="image"></div>
+      <div id="animal-card" class="animal">
+        <h1 id="name"></h1>
+        <p id="weight"></p>
+        <p id="height"></p>
+        <p id="color"></p>
+        <p id="habitat"></p>
+        <p id="isPredator"></p>
+        <button onclick="feedAnimal()" id="feed-animal">Feed me</button>
+      </div>
+    </div>
+    <div id="related-animals" class="flex-container"></div>
+    <script src="./animal.js"></script>
+  </body>
+</html>

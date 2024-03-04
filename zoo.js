@@ -8,7 +8,7 @@ function createAnimalCard(animal) {
 
   card.innerHTML = `
   <h2>${animal.name}</h2>
-  <img src="image.jps/${animal.name}.jpg" alt=${animal.name}"/>
+  <img src="image.jps/${animal.name}.jpg" alt=${animal.name}">
   <p><b>Is Predator:</b> ${animal.isPredator ? "Yes" : "No"}</p>
   <p><b>Weight:</b> ${animal.weight} kg</p>
   <p><b>Height:</b> ${animal.height} cm</p>

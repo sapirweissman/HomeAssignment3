@@ -17,6 +17,7 @@ body {
   box-shadow: 0 0 10px rgba(12, 1, 1, 0.907);
   max-width: 400px;
   width: 100%;
+  font-weight: bold;
 }
 #create-visitor-form label {
   font-size: 24px;

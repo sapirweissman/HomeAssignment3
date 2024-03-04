@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f2f2f2;
+  font-weight: bold;
 }
 
 .flex-container {
@@ -129,4 +130,8 @@ img {
   height: 200px;
   border-radius: 50%;
   margin-bottom: 10px;
+}
+
+#search-container {
+  font-size: 28px;
 }

@@ -52,14 +52,10 @@ function renderAnimal() {
     "Predator: " + chosenAnimal.isPredator;
 
   //set the image
-  if (chosenAnimal.image) {
-    const imageDiv = document.getElementById("image");
-    const image = document.createElement("img");
-    //the link to the image.
-    image.src = chosenAnimal.image;
-    image.width = 200;
-    imageDiv.appendChild(image);
-  }
+  const imageElement = document.getElementById("image");
+  //the link to the image.
+  imageElement.src = "image.jps/" + chosenAnimal.name + ".jpg";
+  imageElement.alt = chosenAnimal.name;
 }
 
 //render the related animals.
